@@ -1,3 +1,2 @@
 print("hi")
-print("fuck rick")
-
+print("rick")
