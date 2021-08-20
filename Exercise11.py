@@ -1,0 +1,5 @@
+print("hi, how are you",)
+response = input()
+print("how old are you",)
+age = input()
+print("so you are a %r and %r old person" % (response, age))
