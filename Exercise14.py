@@ -8,3 +8,4 @@ print("How are you %s " % (username))
 response = input(prompt)
 
 print("so you are %r" % (response))
+print(1<2)

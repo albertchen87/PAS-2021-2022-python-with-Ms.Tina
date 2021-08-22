@@ -1,10 +1,10 @@
 from sys import argv
 
-scirpt, fileName = argv
+scirpt = argv
 
-txt = open(fileName)
+txt = open(input("enter file name "))
 
-print("your file name is %r" %(fileName))
+print("your file name is", txt.name)
 print(txt.read())
 
 print("Open the next file")
