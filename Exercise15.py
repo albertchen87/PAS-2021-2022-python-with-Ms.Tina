@@ -7,6 +7,7 @@ txt = open(input("enter file name "))
 # print the filename and the file
 print("your file name is", txt.name)
 print(txt.read())
+txt.close()
 # know the next file
 print("Open the next file")
 fileName2 = input("File name: ")
@@ -14,3 +15,4 @@ fileName2 = input("File name: ")
 print("Your file name: %r" %(fileName2))
 txt2 = open(fileName2)
 print(txt2.read())
+txt2.close()
