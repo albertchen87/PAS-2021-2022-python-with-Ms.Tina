@@ -1,9 +1,9 @@
 from sys import argv
 
-script, username = argv
+script, username, filename = argv
 prompt = '> '
 
-print("Hi %s, this is %s" % (username, script))
+print("Hi %s, this is %s, I see you like %s" % (username, script, filename))
 print("How are you %s " % (username))
 response = input(prompt)
 

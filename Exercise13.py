@@ -13,4 +13,6 @@ print(hi)
 1. there will be one variable that is not assigned
 2. from sys import argv
     script, first, second = argv
+3. from sys import argv
+    script, first, second, third, forth = argv
 '''
