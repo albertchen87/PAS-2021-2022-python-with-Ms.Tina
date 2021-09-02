@@ -1,7 +1,7 @@
 from sys import argv
 
 script, username, filename = argv
-prompt = '> '
+prompt = 'Rick: '
 
 print("Hi %s, this is %s, I see you like %s" % (username, script, filename))
 print("How are you %s " % (username))

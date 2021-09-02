@@ -10,10 +10,13 @@ print("my friend " + rick)
 print("Dennis likes " + dennis + " a lot")
 print(steve)
 
-for i in ["/","- ","|","\\","|"]:
+for i in ["/","- ","|","\\","|", "'"]:
     print("%r\r"%i)
+
+print("%s" % "')")
 
 '''
 1. ok
 2. may need to print " or is faster
+4. %r print out the whole thing including the "" but %s only print the thing in it
 '''
