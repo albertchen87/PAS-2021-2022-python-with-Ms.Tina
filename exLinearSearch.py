@@ -1,5 +1,5 @@
 import time
-list = [6,5,4,3,2,1,3,3,3,3,3,4]
+list = [1,2,3,4,5,6,7,8,9,10]
 
 def linearSearch(list, n):
     returnList = []
@@ -14,4 +14,4 @@ def linearSearch(list, n):
 start = time.perf_counter()
 print(linearSearch(list, 7))
 end = time.perf_counter()
-print((end - start) * 1000)
+print(str((end - start) * 1000) + " ms")
