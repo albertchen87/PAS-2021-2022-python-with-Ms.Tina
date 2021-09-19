@@ -28,7 +28,7 @@ print(stuff.pop())
 print(" ".join(stuff))
 # join # with 4 and 5 thing in stuff 
 print("#".join(stuff[3:5]))
-'''
+''' 
 2. yes
 3. no, i learn java
 5. dir(something) is function and class is a group of code

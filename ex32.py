@@ -28,6 +28,6 @@ for i in range(0,6):
 for i in elements:
     print("Element was: %d" % i)
 
-
+ 
 #2. no
 #3. length, ordered, type, consturctor, access list items, range of indexes, change item value, add list items, remove list items, loop list

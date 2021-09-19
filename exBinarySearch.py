@@ -18,3 +18,4 @@ result = binarySearch(arr, 0, len(arr) - 1, 10)
 end = time.perf_counter()
 print(result)
 print(str((end - start) * 1000) + " ms")
+ 

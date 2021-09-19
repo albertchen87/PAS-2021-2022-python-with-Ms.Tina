@@ -14,4 +14,4 @@ def linearSearch(list, n):
 start = time.perf_counter()
 print(linearSearch(list, 7))
 end = time.perf_counter()
-print(str((end - start) * 1000) + " ms")
+print(str((end - start) * 1000) + " ms") 
