@@ -1,4 +1,5 @@
 def SelectionSort(arr):
+    print(len(arr))
     for i in range(len(arr)):
         index = i
         for j in range(i + 1, len(arr)):
@@ -7,8 +8,12 @@ def SelectionSort(arr):
         arr[i], arr[index] = arr[index], arr[i]
     return arr
 
-arr = [5,3,4,7,8,2,8,0]
+def enterArr():
+    s = input("Enter array")
+    arr = s.split(" ")
+    return arr
 
-arr = SelectionSort(arr)
-for i in range(len(arr)):
-    print("%d" % arr[i])
+arr = enterArr()
+arrNew = [int(x) for x in arr]
+arrNew = SelectionSort(arrNew)
+print(arrNew)

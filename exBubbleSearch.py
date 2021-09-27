@@ -1,6 +1,3 @@
-<<<<<<< Updated upstream
- 
-=======
 def enterArr():
     s = input("Enter array")
     arr = s.split()
@@ -31,4 +28,3 @@ b = selectionSort(enterArr())
 
 for i in b:
     print(i + " ", end = "")
->>>>>>> Stashed changes
