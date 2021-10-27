@@ -5,6 +5,8 @@ class Dog(Animal):
     # has a 
     def __init__(self, name):
         self.name = name
+    def hi(self):
+        print("hehe")
 
 # is a 
 class Cat(Animal):
@@ -21,6 +23,8 @@ class Person(object):
         self.name = name
         # has a 
         self.pet = None
+    def talk(self):
+        print("Pamela sucks")
 
 # is a 
 class Employee(Person):
